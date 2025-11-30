@@ -1011,6 +1011,301 @@ body {
     opacity: 0.7;
 }
 
+/* Statistics Highlight Box */
+.stats-highlight {
+    background: linear-gradient(135deg, #fee2e2 0%, #fecaca 100%);
+    padding: 2rem;
+    border-radius: 12px;
+    margin: 2rem 0;
+    border-left: 4px solid #dc2626;
+}
+
+.stats-highlight h4 {
+    color: #991b1b;
+    margin-bottom: 1.5rem;
+    font-size: 1.25rem;
+}
+
+.stat-row {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 1rem;
+    margin-bottom: 1rem;
+}
+
+.stat-box {
+    background: white;
+    padding: 1.25rem;
+    border-radius: 8px;
+    text-align: center;
+    box-shadow: var(--shadow-sm);
+}
+
+.stat-box.danger {
+    border-left: 4px solid #dc2626;
+}
+
+.stat-box.warning {
+    border-left: 4px solid #f59e0b;
+}
+
+.stat-big {
+    font-size: 2.5rem;
+    font-weight: 700;
+    color: #dc2626;
+    margin-bottom: 0.5rem;
+}
+
+.stat-box p {
+    color: var(--text-secondary);
+    font-size: 0.9rem;
+    margin: 0;
+}
+
+/* Security Highlight */
+.security-highlight {
+    background: linear-gradient(135deg, #dbeafe 0%, #bfdbfe 100%);
+    padding: 1.5rem;
+    border-radius: 8px;
+    margin-top: 2rem;
+    border-left: 4px solid #2563eb;
+}
+
+.security-highlight h4 {
+    color: #1e40af;
+    margin-bottom: 0.75rem;
+}
+
+.security-highlight p {
+    color: #1e3a8a;
+    line-height: 1.6;
+    margin: 0;
+}
+
+/* Corporate & SME Lending Section */
+.corporate-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(500px, 1fr));
+    gap: 2rem;
+    margin-top: 3rem;
+}
+
+.corporate-card {
+    background: white;
+    border-radius: 12px;
+    padding: 2.5rem;
+    box-shadow: var(--shadow-lg);
+}
+
+.corporate-icon {
+    font-size: 3rem;
+    margin-bottom: 1rem;
+}
+
+.corporate-card h3 {
+    font-size: 1.75rem;
+    margin-bottom: 1rem;
+    color: var(--text-primary);
+}
+
+.problem-text {
+    color: var(--text-secondary);
+    line-height: 1.7;
+    margin-bottom: 1.5rem;
+}
+
+.solution-text {
+    color: var(--text-secondary);
+    line-height: 1.7;
+    margin-bottom: 1.5rem;
+    font-weight: 500;
+}
+
+.risk-indicators {
+    background: var(--bg-secondary);
+    padding: 1.5rem;
+    border-radius: 8px;
+    margin: 1.5rem 0;
+}
+
+.risk-indicators h4 {
+    color: var(--text-primary);
+    margin-bottom: 1rem;
+    font-size: 1.1rem;
+}
+
+.risk-indicators ul {
+    list-style: none;
+}
+
+.risk-indicators ul li {
+    padding: 0.5rem 0;
+    padding-left: 1.5rem;
+    position: relative;
+    color: var(--text-secondary);
+}
+
+.risk-indicators ul li:before {
+    content: "⚠️";
+    position: absolute;
+    left: 0;
+}
+
+/* Automation Features */
+.automation-features {
+    display: flex;
+    flex-direction: column;
+    gap: 1.25rem;
+}
+
+.auto-feature {
+    display: flex;
+    gap: 1rem;
+    align-items: flex-start;
+    padding: 1rem;
+    background: var(--bg-secondary);
+    border-radius: 8px;
+}
+
+.auto-icon {
+    color: var(--secondary-color);
+    font-weight: 700;
+    font-size: 1.5rem;
+    flex-shrink: 0;
+}
+
+.auto-feature strong {
+    display: block;
+    color: var(--text-primary);
+    margin-bottom: 0.25rem;
+}
+
+.auto-feature p {
+    color: var(--text-secondary);
+    font-size: 0.95rem;
+    margin: 0;
+    line-height: 1.5;
+}
+
+/* Stat Callouts */
+.stat-callout {
+    padding: 1.25rem;
+    border-radius: 8px;
+    margin-top: 1.5rem;
+    font-weight: 500;
+}
+
+.stat-callout.danger {
+    background: linear-gradient(135deg, #fee2e2 0%, #fecaca 100%);
+    color: #991b1b;
+    border-left: 4px solid #dc2626;
+}
+
+.stat-callout.success {
+    background: linear-gradient(135deg, #d1fae5 0%, #a7f3d0 100%);
+    color: #065f46;
+    border-left: 4px solid #10b981;
+}
+
+/* Security Section */
+.security-section {
+    margin-top: 4rem;
+    padding: 3rem;
+    background: linear-gradient(135deg, #f8f9ff 0%, #f0f4ff 100%);
+    border-radius: 12px;
+}
+
+.security-section h3 {
+    font-size: 2rem;
+    text-align: center;
+    margin-bottom: 2rem;
+    color: var(--text-primary);
+}
+
+.security-comparison {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(400px, 1fr));
+    gap: 2rem;
+    margin-bottom: 2rem;
+}
+
+.comparison-card {
+    background: white;
+    border-radius: 12px;
+    padding: 2rem;
+    box-shadow: var(--shadow-md);
+}
+
+.comparison-card.centralized {
+    border-top: 4px solid #dc2626;
+}
+
+.comparison-card.decentralized {
+    border-top: 4px solid #10b981;
+}
+
+.comparison-header {
+    display: flex;
+    align-items: center;
+    gap: 0.75rem;
+    margin-bottom: 1.5rem;
+}
+
+.comparison-icon {
+    font-size: 2rem;
+}
+
+.comparison-header h4 {
+    font-size: 1.25rem;
+    color: var(--text-primary);
+    margin: 0;
+}
+
+.comparison-list {
+    list-style: none;
+}
+
+.comparison-list li {
+    padding: 0.75rem 0;
+    padding-left: 1.5rem;
+    position: relative;
+    color: var(--text-secondary);
+    border-bottom: 1px solid var(--bg-alt);
+}
+
+.comparison-list li:last-child {
+    border-bottom: none;
+}
+
+.centralized .comparison-list li:before {
+    content: "✗";
+    position: absolute;
+    left: 0;
+    color: #dc2626;
+    font-weight: 700;
+}
+
+.decentralized .comparison-list li:before {
+    content: "✓";
+    position: absolute;
+    left: 0;
+    color: #10b981;
+    font-weight: 700;
+}
+
+.security-note {
+    background: white;
+    padding: 1.5rem;
+    border-radius: 8px;
+    border-left: 4px solid #2563eb;
+    color: var(--text-secondary);
+    line-height: 1.7;
+}
+
+.security-note strong {
+    color: var(--primary-color);
+}
+
 /* Responsive Design */
 @media (max-width: 768px) {
     .nav-menu {
@@ -1051,5 +1346,17 @@ body {
 
     .timeline-marker {
         left: 5px;
+    }
+
+    .stat-row {
+        grid-template-columns: 1fr;
+    }
+
+    .corporate-grid {
+        grid-template-columns: 1fr;
+    }
+
+    .security-comparison {
+        grid-template-columns: 1fr;
     }
 }
