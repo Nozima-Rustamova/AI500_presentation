@@ -474,6 +474,17 @@ body {
     margin: 0 auto 1.5rem;
 }
 
+.team-photo {
+    width: 140px;
+    height: 140px;
+    border-radius: 50%;
+    object-fit: cover;
+    margin: 0 auto 1.5rem;
+    display: block;
+    border: 4px solid var(--primary-color);
+    box-shadow: var(--shadow-lg);
+}
+
 .team-card h3 {
     font-size: 1.5rem;
     margin-bottom: 0.5rem;
@@ -483,7 +494,14 @@ body {
 .team-role {
     color: var(--primary-color);
     font-weight: 600;
+    margin-bottom: 0.5rem;
+}
+
+.team-institution {
+    color: var(--text-secondary);
+    font-size: 0.95rem;
     margin-bottom: 1rem;
+    font-weight: 500;
 }
 
 .team-skills {
