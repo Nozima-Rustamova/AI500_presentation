@@ -6,10 +6,10 @@
 }
 
 :root {
-    --primary-color: #6366f1;
-    --primary-dark: #4f46e5;
-    --primary-light: #818cf8;
-    --secondary-color: #10b981;
+    --primary-color: #10b981;
+    --primary-dark: #059669;
+    --primary-light: #34d399;
+    --secondary-color: #14b8a6;
     --accent-color: #f59e0b;
     --text-primary: #1f2937;
     --text-secondary: #6b7280;
@@ -92,11 +92,19 @@ body {
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+    background: linear-gradient(135deg, #059669 0%, #047857 100%);
     color: white;
     text-align: center;
     padding: 6rem 2rem 4rem;
     position: relative;
+}
+
+.hero-brand {
+    font-size: 1.5rem;
+    font-weight: 700;
+    margin-bottom: 1rem;
+    opacity: 0.95;
+    letter-spacing: 2px;
 }
 
 .hero-content {
@@ -883,7 +891,7 @@ body {
 
 /* Vision Section */
 .vision-section {
-    background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+    background: linear-gradient(135deg, #059669 0%, #047857 100%);
     color: white;
     padding: 5rem 0;
 }

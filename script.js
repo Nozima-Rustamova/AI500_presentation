@@ -76,7 +76,7 @@ window.addEventListener('scroll', () => {
     navLinks.forEach(link => {
         link.style.color = '';
         if (link.getAttribute('href') === `#${current}`) {
-            link.style.color = '#6366f1';
+            link.style.color = '#10b981';
         }
     });
 });
@@ -106,5 +106,5 @@ window.addEventListener('scroll', () => {
 });
 
 // Console welcome message
-console.log('%cAI500 - Credit Risk Scoring System', 'color: #6366f1; font-size: 20px; font-weight: bold;');
-console.log('%cBuilt with ❤️ by the AI500 Team', 'color: #10b981; font-size: 14px;');
+console.log('%cPulse Group - Credit Risk Scoring System', 'color: #10b981; font-size: 20px; font-weight: bold;');
+console.log('%cBuilt with ❤️ by the Pulse Group Team', 'color: #10b981; font-size: 14px;');
